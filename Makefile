@@ -551,7 +551,6 @@ test-gui:
 test-sdk:
 	$(NPX) electron-mocha $(ELECTRON_MOCHA_OPTIONS) \
 		tests/shared \
-		tests/child-writer \
 		tests/image-stream
 
 test: test-gui test-sdk
